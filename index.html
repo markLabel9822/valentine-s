@@ -991,45 +991,12 @@
                     <h1 class="main-headline" id="mainHeadline"></h1>
                 </div>
 
-                <!-- Love Letter Card (Accordion) -->
-                <div class="love-letter-card" id="loveCard">
-                    <div class="card-header">
-                        <span>💌 จดหมายรักถึงเธอ</span>
-                        <span class="card-icon">▼</span>
-                    </div>
-                    <div class="card-content" id="loveCardContent"></div>
-                </div>
-
-                <!-- Mini Game -->
-                <div class="game-section">
-                    <h2 class="game-title">🎮 มินิเกม: เก็บหัวใจให้ได้ 10 ดวง!</h2>
-                    <button class="game-btn" id="startGameBtn">เริ่มเกม</button>
-                    <div class="game-stats">
-                        <div>หัวใจ: <span id="heartCount">0</span>/10</div>
-                        <div>เวลา: <span id="timeLeft">15</span>s</div>
-                    </div>
-                    <div class="game-container" id="gameContainer"></div>
-                    <div class="game-result" id="gameResult"></div>
-                </div>
-
-                <!-- Gallery -->
-                <div class="gallery-section">
-                    <h2 class="section-title">📸 ความทรงจำของเรา</h2>
-                    <div class="polaroid-grid" id="galleryGrid"></div>
-                </div>
-
-                <!-- Random Love Quote -->
-                <div class="quote-section">
-                    <h2 class="section-title">💬 คำหวานสุ่มใจ</h2>
-                    <div class="quote-display" id="quoteDisplay">คลิกปุ่มเพื่อรับคำหวาน 💕</div>
-                    <button class="game-btn" id="randomQuoteBtn">สุ่มคำหวาน ✨</button>
-                </div>
 
             </div>
         </section>
 
         <!-- Easter Egg Heart -->
-        <div class="easter-egg-heart" id="easterEggHeart" style="display: none;">❤️</div>
+        <div class="easter-egg-heart" id="easterEggHeart" style="display: none;"></div>
 
         <!-- Audio Control -->
         <div class="audio-control" id="audioControl">🔇</div>
@@ -1435,10 +1402,10 @@
                 startPhotoHearts();
                 
                 // Start typewriter
-                typeWriter();
+                // typeWriter();
                 
                 // Load love messages
-                loadLoveMessages();
+                // loadLoveMessages();
                 
                 // Load gallery
                 loadGallery();
